@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', 'Roboto', 'Arial', sans-serif;
+  background-color: #f6fffe;
+  color: #333;
+  line-height: 1.6;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #b69df8;
+  border-radius: 10px;
+}
+
+a, button {
+  transition: all 0.3s ease;
+}
+
+h1, h2, h3 {
+  font-weight: 600;
+  color: #2d2d2d;
+}
+
+.center {
+  text-align: center;
+}
+
+.btn {
+  background-color: #7b5be0;
+  color: rgb(165, 202, 202);
+  padding: 10px 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #6a48d7;
+}
+
+.card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
